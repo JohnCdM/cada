@@ -1,0 +1,10 @@
+disp('Setting Up CADA Software...');
+disp('  ');
+currdir = pwd;
+cadadir = strcat(currdir,'/cadaSource');
+addpath(cadadir);
+savepath;
+longstring = strcat(['Adding Following Directory to MATLAB Path: ',cadadir]);
+disp(longstring);
+disp('   ');
+disp('CADA is now installed on your computer.');
